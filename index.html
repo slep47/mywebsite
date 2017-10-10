@@ -1,19 +1,6 @@
-<html>
-  <head>
-    {% if title %}
-    <title>{{ title }} - microbl</title>
-    {% else %}
-    <title>Welcome to microblog</title>
-    {% endif %}
-  </head>
-  <body>
-  {% extends "base.html" %}
-  {% block content %}    
-    <h1>Yo, {{ user.nickname }}!</h1>
-    {% for post in posts %}
-    <div><p>{{ post.author.nickname }} says: <b>{{ post.body }}</b></p></div>
-    {% endfor %}
-  {% endblock %}
-
-  </body>
-</html>
+<!-- This is a comment in the source -->
+<h3>Welcome to Arik's Super Cool <span style="background-color: #914c53; color: #ffffff; padding: 0 3px;">Website!</span></h3>
+<p>If you are looking for me, shoot me an email silly!</p>
+<p>I like woods, so if you want to send me a gift... (hint hint) <img src="http://htmlcodeeditor.com/images/smiley.png" alt="smiley" /></p>
+<p>That's me below:</p>
+<img src="https://i.pinimg.com/236x/64/68/8a/64688a7970d80536e4e3141c0551c49f--cartoon-characters-stock-photos.jpg" alt="" />
